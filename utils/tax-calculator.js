@@ -1,5 +1,5 @@
 
-const ApiMapper = require('./ApiMapper');
+const ApiMapper = require('./api-mapper');
 
 /**
  * fatura-master/src/Models/InvoiceItemModel.php birebir uyarlaması
