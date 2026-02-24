@@ -2,9 +2,9 @@ const axios = require('axios');
 const qs = require('qs');
 const fs = require('fs');
 const path = require('path');
-const GIBError = require('./utils/GIBError');
-const ApiMapper = require('./utils/ApiMapper');
-const TaxCalculator = require('./utils/TaxCalculator');
+const GIBError = require('./utils/gib-error');
+const ApiMapper = require('./utils/api-mapper');
+const TaxCalculator = require('./utils/tax-calculator');
 const {
     EInvoice,
     EInvoiceApi,
